@@ -1,0 +1,13 @@
+.main-light{
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    background-color: rgba(233, 179, 108, 0);
+}
+
+.main-dark{
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    background-color: rgb(14, 12, 37);
+};

@@ -1,0 +1,11 @@
+.App-light{
+  margin: 0px;
+  padding: 0px;
+  background-color: antiquewhite;
+}
+
+.App-dark{
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(15, 11, 4);
+}

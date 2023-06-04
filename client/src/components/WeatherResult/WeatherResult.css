@@ -1,0 +1,30 @@
+
+.result-light{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-size: 25px;
+    color: rgb(129, 77, 0);
+}
+
+.result-dark{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-size: 25px;
+    color: rgb(151, 146, 205);
+}
+
+.weather-image{
+    width: 150px;
+}
+
+.city-name, .temp{
+    font-weight: bold;
+    font-size:45px;
+    margin-right: 20px;
+}

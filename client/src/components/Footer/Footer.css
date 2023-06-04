@@ -1,0 +1,26 @@
+.footer-light {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(234, 159, 46);
+  }
+  
+  .footer-text-light {
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  .footer-dark {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(151, 146, 205, 0.336);
+  }
+
+  .footer-text-dark{
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    color:rgb(255, 255, 255);
+  }

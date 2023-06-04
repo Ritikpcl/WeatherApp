@@ -1,0 +1,64 @@
+.search-light, .search-dark{
+    display: flex;
+    justify-content: center;
+    padding: 5px 5px;
+    border: none;
+    margin: 0;
+}
+
+.search-light > input{
+    width: 300px;
+    padding: 10px 10px;
+    outline: none;
+    border-radius: 25px;
+    border-bottom: 1px solid rgb(129, 77, 0);
+    background: transparent;
+    border-top: 0px;
+    border-left: 0px;
+    font-style: italic;
+    font-size: 25px;
+    color: rgb(129, 77, 0);
+}
+
+.search-light > input::value {
+    color: rgb(129, 77, 0);
+    font-style: italic;
+    font-size: 25px;
+}
+
+.search-light > button, .search-dark > button{
+    position: relative;
+    background: transparent;
+    border: none;
+}
+
+.search-icon{
+    position: absolute;
+    width: 45px;
+    right: 0;
+    top: 0;
+    height: 100%;
+    cursor: pointer;
+}
+
+.search-dark > input{
+    width: 300px;
+    padding: 10px 10px;
+    outline: none;
+    border-radius: 25px;
+    border-bottom: 1px solid rgb(151, 146, 205);
+    background: transparent;
+    border-top: 0px;
+    border-left: 0px;
+    font-style: italic;
+    font-size: 25px;
+    color: rgb(151, 146, 205);
+}
+
+.search-dark > input::value {
+    color: rgba(151, 146, 205, 0.336);;
+    font-style: italic;
+    font-size: 25px;
+}
+
+

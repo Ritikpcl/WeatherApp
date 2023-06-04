@@ -1,0 +1,87 @@
+.heading-light{
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    color: black;
+}
+
+.heading-dark{
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    color: rgb(255, 252, 252);
+}
+
+.header-light{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgb(234, 159, 46);
+}
+
+.header-dark{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgba(151, 146, 205, 0.336);
+}
+
+.logo{
+    margin: 0px;
+    width: 70px;
+}
+
+.mode-button-div{
+    position: absolute;
+    right: 50px;
+}
+
+@media (max-width: 540px) {
+    .mode-button-div {
+      top: 80px;
+      right: 10px;
+    }
+}
+
+.mode-button-dark{
+    width: 70px;
+    height: 40px;
+    position: relative;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(218, 156, 62);
+}
+
+.mode-button-light{
+    width: 70px;
+    height: 40px;
+    position: relative;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(30, 28, 54);
+}
+
+.mode-circle-div-dark{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.mode-circle-div-light{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(245, 220, 188);
+    position: absolute;
+    top: 0;
+}

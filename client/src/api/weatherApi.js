@@ -1,8 +1,5 @@
 import axios from "axios";
-// import path from "path"
-import dotenv from "dotenv"
-dotenv.config();
 
-const API = axios.create({baseURL: process.env.BASE_URL });
+const API = axios.create({baseURL: "weather-app-ashy-pi.vercel.app"});
 
 export const getWeather = (query) => API.get(`/weather/search/${query}`)
